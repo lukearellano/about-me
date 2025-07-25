@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lukas Arellano</title>
+    <title>Lukas Arellano - Corporate Sales Expert</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         * {
@@ -14,7 +14,7 @@
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+            background: linear-gradient(135deg, #1E3A5F 0%, #2C5282 100%);
             color: #ffffff;
             overflow-x: hidden;
             line-height: 1.6;
@@ -33,9 +33,9 @@
             left: 0;
             right: 0;
             z-index: 1000;
-            background: rgba(10, 10, 10, 0.95);
+            background: rgba(30, 58, 95, 0.95);
             backdrop-filter: blur(20px);
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(29, 161, 242, 0.3);
             transition: all 0.3s ease;
         }
 
@@ -49,7 +49,7 @@
         .logo {
             font-size: 1.5rem;
             font-weight: 700;
-            background: linear-gradient(45deg, #00f5ff, #ff00ff);
+            background: linear-gradient(45deg, #1DA1F2, #63B3ED);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -76,7 +76,7 @@
             left: 0;
             width: 0;
             height: 2px;
-            background: linear-gradient(45deg, #00f5ff, #ff00ff);
+            background: linear-gradient(45deg, #1DA1F2, #63B3ED);
             transition: width 0.3s ease;
         }
 
@@ -100,8 +100,8 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: radial-gradient(circle at 30% 20%, rgba(0, 245, 255, 0.1) 0%, transparent 50%),
-                        radial-gradient(circle at 70% 80%, rgba(255, 0, 255, 0.1) 0%, transparent 50%);
+            background: radial-gradient(circle at 30% 20%, rgba(29, 161, 242, 0.2) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 80%, rgba(99, 179, 237, 0.15) 0%, transparent 50%);
             animation: float 6s ease-in-out infinite;
         }
 
@@ -120,7 +120,7 @@
             font-size: clamp(3rem, 8vw, 6rem);
             font-weight: 800;
             margin-bottom: 1rem;
-            background: linear-gradient(45deg, #ffffff, #00f5ff, #ff00ff);
+            background: linear-gradient(45deg, #ffffff, #1DA1F2, #63B3ED);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -129,14 +129,15 @@
 
         .hero-subtitle {
             font-size: clamp(1.2rem, 3vw, 2rem);
-            color: #cccccc;
+            color: #1DA1F2;
             margin-bottom: 2rem;
+            font-weight: 600;
             animation: slideUp 1s ease-out 0.2s both;
         }
 
         .hero-description {
             font-size: 1.2rem;
-            color: #999999;
+            color: #E2E8F0;
             margin-bottom: 3rem;
             max-width: 600px;
             margin-left: auto;
@@ -180,25 +181,25 @@
         }
 
         .btn-primary {
-            background: linear-gradient(45deg, #00f5ff, #ff00ff);
-            color: #000000;
+            background: linear-gradient(45deg, #1DA1F2, #63B3ED);
+            color: #ffffff;
         }
 
         .btn-secondary {
             background: transparent;
-            color: #ffffff;
-            border: 2px solid rgba(255, 255, 255, 0.3);
+            color: #1DA1F2;
+            border: 2px solid #1DA1F2;
         }
 
         .btn:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(0, 245, 255, 0.3);
+            box-shadow: 0 10px 30px rgba(29, 161, 242, 0.4);
         }
 
         /* About Section */
         .about {
             padding: 8rem 0;
-            background: rgba(255, 255, 255, 0.02);
+            background: rgba(255, 255, 255, 0.05);
         }
 
         .section-title {
@@ -206,7 +207,7 @@
             font-weight: 700;
             text-align: center;
             margin-bottom: 4rem;
-            background: linear-gradient(45deg, #ffffff, #00f5ff);
+            background: linear-gradient(45deg, #ffffff, #1DA1F2);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
@@ -223,24 +224,24 @@
             width: 300px;
             height: 300px;
             border-radius: 20px;
-            background: linear-gradient(45deg, #00f5ff, #ff00ff);
+            background: linear-gradient(45deg, #1DA1F2, #63B3ED);
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 8rem;
-            color: #000000;
+            color: #ffffff;
             margin: 0 auto;
         }
 
         .about-content h3 {
             font-size: 2rem;
             margin-bottom: 1.5rem;
-            color: #00f5ff;
+            color: #1DA1F2;
         }
 
         .about-content p {
             font-size: 1.1rem;
-            color: #cccccc;
+            color: #E2E8F0;
             margin-bottom: 1.5rem;
         }
 
@@ -252,58 +253,235 @@
         }
 
         .skill-tag {
-            background: rgba(0, 245, 255, 0.1);
-            border: 1px solid rgba(0, 245, 255, 0.3);
+            background: rgba(29, 161, 242, 0.2);
+            border: 1px solid rgba(29, 161, 242, 0.5);
             padding: 0.5rem 1rem;
             border-radius: 25px;
             font-size: 0.9rem;
-            color: #00f5ff;
+            color: #1DA1F2;
         }
 
-        /* Projects Section */
-        .projects {
+        /* Testimonials Section */
+        .testimonials {
             padding: 8rem 0;
+            background: rgba(255, 255, 255, 0.03);
         }
 
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
-            margin-top: 4rem;
+        .testimonials-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
         }
 
-        .project-card {
-            background: rgba(255, 255, 255, 0.05);
+        .testimonials-slider {
+            position: relative;
+            overflow: hidden;
             border-radius: 20px;
-            padding: 2rem;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: all 0.3s ease;
+        }
+
+        .testimonial-card {
+            display: none;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 3rem;
+            border: 1px solid rgba(29, 161, 242, 0.3);
+            backdrop-filter: blur(20px);
+            text-align: center;
             position: relative;
             overflow: hidden;
         }
 
-        .project-card::before {
+        .testimonial-card::before {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(45deg, rgba(0, 245, 255, 0.1), rgba(255, 0, 255, 0.1));
+            background: linear-gradient(45deg, rgba(29, 161, 242, 0.1), rgba(99, 179, 237, 0.05));
+            border-radius: 20px;
+        }
+
+        .testimonial-card.active {
+            display: block;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .testimonial-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .stars {
+            display: flex;
+            justify-content: center;
+            gap: 0.3rem;
+            margin-bottom: 2rem;
+        }
+
+        .stars i {
+            color: #1DA1F2;
+            font-size: 1.2rem;
+        }
+
+        .testimonial-card p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #E2E8F0;
+            margin-bottom: 2.5rem;
+            font-style: italic;
+            position: relative;
+        }
+
+        .testimonial-card p::before {
+            content: '"';
+            font-size: 4rem;
+            color: rgba(29, 161, 242, 0.3);
+            position: absolute;
+            left: -1rem;
+            top: -1rem;
+            font-family: serif;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .author-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #1DA1F2, #63B3ED);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 1.5rem;
+        }
+
+        .author-info h4 {
+            margin: 0;
+            font-size: 1.1rem;
+            color: #ffffff;
+        }
+
+        .author-info span {
+            color: #1DA1F2;
+            font-size: 0.9rem;
+        }
+
+        .testimonials-navigation {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .nav-btn {
+            background: rgba(29, 161, 242, 0.2);
+            border: 1px solid rgba(29, 161, 242, 0.5);
+            color: #1DA1F2;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1.2rem;
+        }
+
+        .nav-btn:hover {
+            background: linear-gradient(45deg, #1DA1F2, #63B3ED);
+            color: #ffffff;
+            transform: scale(1.1);
+        }
+
+        .testimonials-dots {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(29, 161, 242, 0.3);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .dot.active {
+            background: linear-gradient(45deg, #1DA1F2, #63B3ED);
+            transform: scale(1.2);
+        }
+
+        .dot:hover {
+            background: rgba(29, 161, 242, 0.6);
+        }
+
+        /* Services Section */
+        .services {
+            padding: 8rem 0;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .service-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 2rem;
+            border: 1px solid rgba(29, 161, 242, 0.3);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, rgba(29, 161, 242, 0.1), rgba(99, 179, 237, 0.05));
             opacity: 0;
             transition: opacity 0.3s ease;
         }
 
-        .project-card:hover::before {
+        .service-card:hover::before {
             opacity: 1;
         }
 
-        .project-card:hover {
+        .service-card:hover {
             transform: translateY(-10px);
-            border-color: rgba(0, 245, 255, 0.5);
+            border-color: rgba(29, 161, 242, 0.7);
         }
 
-        .project-card h4 {
+        .service-icon {
+            font-size: 3rem;
+            color: #1DA1F2;
+            margin-bottom: 1.5rem;
+            position: relative;
+            z-index: 2;
+        }
+
+        .service-card h4 {
             font-size: 1.5rem;
             margin-bottom: 1rem;
             color: #ffffff;
@@ -311,38 +489,17 @@
             z-index: 2;
         }
 
-        .project-card p {
-            color: #cccccc;
+        .service-card p {
+            color: #E2E8F0;
             margin-bottom: 1.5rem;
             position: relative;
             z-index: 2;
         }
 
-        .project-links {
-            display: flex;
-            gap: 1rem;
-            position: relative;
-            z-index: 2;
-        }
-
-        .project-links a {
-            color: #00f5ff;
-            text-decoration: none;
-            font-weight: 500;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            transition: color 0.3s ease;
-        }
-
-        .project-links a:hover {
-            color: #ff00ff;
-        }
-
         /* Contact Section */
         .contact {
             padding: 8rem 0;
-            background: rgba(255, 255, 255, 0.02);
+            background: rgba(255, 255, 255, 0.03);
         }
 
         .contact-content {
@@ -353,7 +510,7 @@
 
         .contact-content p {
             font-size: 1.2rem;
-            color: #cccccc;
+            color: #E2E8F0;
             margin-bottom: 3rem;
         }
 
@@ -368,19 +525,19 @@
             width: 60px;
             height: 60px;
             border-radius: 50%;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(29, 161, 242, 0.2);
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #ffffff;
+            color: #1DA1F2;
             font-size: 1.5rem;
             text-decoration: none;
             transition: all 0.3s ease;
         }
 
         .social-links a:hover {
-            background: linear-gradient(45deg, #00f5ff, #ff00ff);
-            color: #000000;
+            background: linear-gradient(45deg, #1DA1F2, #63B3ED);
+            color: #ffffff;
             transform: translateY(-5px);
         }
 
@@ -388,8 +545,8 @@
         footer {
             padding: 2rem 0;
             text-align: center;
-            color: #666666;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #718096;
+            border-top: 1px solid rgba(29, 161, 242, 0.3);
         }
 
         /* Responsive */
@@ -408,7 +565,7 @@
                 align-items: center;
             }
 
-            .projects-grid {
+            .services-grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -435,7 +592,8 @@
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -448,19 +606,19 @@
         <div class="container">
             <div class="hero-content">
                 <h1 class="hero-title">Lukas Arellano</h1>
-                <p class="hero-subtitle">Creative Developer & Digital Innovator</p>
+                <p class="hero-subtitle">Breaking Into Corporate Sales</p>
                 <p class="hero-description">
-                    Crafting exceptional digital experiences through code, design, and innovation. 
-                    Passionate about building solutions that make a difference.
+                    Helping professionals transition into high-paying corporate sales careers with proven strategies, 
+                    expert guidance, and real-world experience. No degree or experience required.
                 </p>
                 <div class="cta-buttons">
-                    <a href="#projects" class="btn btn-primary">
-                        <i class="fas fa-rocket"></i>
-                        View My Work
+                    <a href="#services" class="btn btn-primary">
+                        <i class="fas fa-chart-line"></i>
+                        Start Your Journey
                     </a>
                     <a href="#contact" class="btn btn-secondary">
-                        <i class="fas fa-envelope"></i>
-                        Get In Touch
+                        <i class="fas fa-phone"></i>
+                        Book Consultation
                     </a>
                 </div>
             </div>
@@ -473,60 +631,168 @@
             <h2 class="section-title fade-in">About Me</h2>
             <div class="about-grid fade-in">
                 <div class="about-image">
-                    <i class="fas fa-user"></i>
+                    <i class="fas fa-user-tie"></i>
                 </div>
                 <div class="about-content">
-                    <h3>Hello, I'm Lukas</h3>
+                    <h3>Sales Success Without Barriers</h3>
                     <p>
-                        I'm a passionate developer with a love for creating innovative digital solutions. 
-                        With expertise in modern web technologies and a keen eye for design, I bring 
-                        ideas to life through clean, efficient code.
+                        I started my career with no degree and no sales experience, yet broke into corporate sales 
+                        and built a successful career helping companies scale their revenue. Now I help others 
+                        do the same through proven strategies and personalized coaching.
                     </p>
                     <p>
-                        When I'm not coding, you can find me exploring new technologies, contributing 
-                        to open source projects, or sharing knowledge with the developer community.
+                        My approach focuses on practical skills, building authentic relationships, and leveraging 
+                        modern sales techniques to help you land high-paying sales roles in top companies.
                     </p>
                     <div class="skills">
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">React</span>
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">UI/UX Design</span>
-                        <span class="skill-tag">Cloud Services</span>
+                        <span class="skill-tag">B2B Sales</span>
+                        <span class="skill-tag">Lead Generation</span>
+                        <span class="skill-tag">CRM Systems</span>
+                        <span class="skill-tag">Sales Strategy</span>
+                        <span class="skill-tag">Client Relations</span>
+                        <span class="skill-tag">Revenue Growth</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
+    <!-- Services Section -->
+    <section id="services" class="services">
         <div class="container">
-            <h2 class="section-title fade-in">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card fade-in">
-                    <h4>E-Commerce Platform</h4>
-                    <p>A full-stack e-commerce solution built with React and Node.js, featuring real-time inventory management and secure payment processing.</p>
-                    <div class="project-links">
-                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        <a href="#"><i class="fab fa-github"></i> Source Code</a>
+            <h2 class="section-title fade-in">My Services</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h4>Sales Training Program</h4>
+                    <p>Comprehensive 6-week program covering everything from prospecting to closing deals, designed specifically for beginners breaking into corporate sales.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <h4>1-on-1 Coaching</h4>
+                    <div class="service-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <p>Personalized coaching sessions to help you prepare for interviews, negotiate offers, and excel in your first 90 days in a new sales role.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h4>LinkedIn Optimization</h4>
+                    <p>Transform your LinkedIn profile into a lead-generating machine that attracts recruiters and opens doors to corporate sales opportunities.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h4>Resume & Interview Prep</h4>
+                    <p>Professional resume writing and interview coaching specifically tailored for sales positions, even without prior experience.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h4>Sales Process Optimization</h4>
+                    <p>For companies looking to improve their sales processes, increase conversion rates, and train their existing sales teams.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Group Workshops</h4>
+                    <p>Interactive workshops covering sales fundamentals, networking strategies, and industry insights for groups and organizations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title fade-in">Success Stories</h2>
+            <div class="testimonials-container fade-in">
+                <div class="testimonials-slider" id="testimonialsSlider">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>Lukas helped me land my first corporate sales role with a $75k base salary plus commission. His coaching was invaluable - I went from zero sales experience to closing deals within my first month!</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Sarah Martinez</h4>
+                                    <span>Account Executive, TechCorp</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>The LinkedIn optimization alone was worth the investment. Within 2 weeks of implementing Lukas's strategies, I had 3 recruiters reach out with sales opportunities. Now I'm making 6 figures!</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Michael Rodriguez</h4>
+                                    <span>Senior Sales Rep, Digital Solutions</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>Lukas's training program gave me the confidence and skills I needed to transition from retail to B2B sales. The strategies are practical and the results speak for themselves - 150% of quota in my first year!</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="author-info">
+                                    <h4>Jessica Chen</h4>
+                                    <span>Business Development Manager, SaaS Inc</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="project-card fade-in">
-                    <h4>Task Management App</h4>
-                    <p>A collaborative task management application with real-time updates, team collaboration features, and intuitive drag-and-drop interface.</p>
-                    <div class="project-links">
-                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        <a href="#"><i class="fab fa-github"></i> Source Code</a>
+
+                <div class="testimonials-navigation">
+                    <button class="nav-btn prev-btn" onclick="previousTestimonial()">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonials-dots">
+                        <span class="dot active" onclick="currentTestimonial(1)"></span>
+                        <span class="dot" onclick="currentTestimonial(2)"></span>
+                        <span class="dot" onclick="currentTestimonial(3)"></span>
                     </div>
-                </div>
-                <div class="project-card fade-in">
-                    <h4>Weather Analytics Dashboard</h4>
-                    <p>An interactive weather dashboard with data visualization, forecasting, and location-based services using modern APIs.</p>
-                    <div class="project-links">
-                        <a href="#"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                        <a href="#"><i class="fab fa-github"></i> Source Code</a>
-                    </div>
+                    <button class="nav-btn next-btn" onclick="nextTestimonial()">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -536,20 +802,20 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="contact-content fade-in">
-                <h2 class="section-title">Let's Work Together</h2>
+                <h2 class="section-title">Ready to Break Into Sales?</h2>
                 <p>
-                    Ready to bring your ideas to life? I'm always excited to work on new projects 
-                    and collaborate with amazing people. Let's create something extraordinary together.
+                    Don't let lack of experience hold you back. Book a free consultation to discuss your goals 
+                    and learn how I can help you land your dream sales role.
                 </p>
                 <a href="mailto:lukas@example.com" class="btn btn-primary">
                     <i class="fas fa-envelope"></i>
-                    Send Message
+                    Book Free Consultation
                 </a>
                 <div class="social-links">
                     <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
                     <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>
@@ -558,7 +824,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Lukas Arellano. All rights reserved. Built with passion and code.</p>
+            <p>&copy; 2025 Lukas Arellano. All rights reserved. Breaking barriers in corporate sales.</p>
         </div>
     </footer>
 
@@ -599,9 +865,9 @@
         window.addEventListener('scroll', () => {
             const nav = document.querySelector('nav');
             if (window.scrollY > 100) {
-                nav.style.background = 'rgba(10, 10, 10, 0.98)';
+                nav.style.background = 'rgba(30, 58, 95, 0.98)';
             } else {
-                nav.style.background = 'rgba(10, 10, 10, 0.95)';
+                nav.style.background = 'rgba(30, 58, 95, 0.95)';
             }
         });
 
@@ -615,10 +881,4 @@
             mouseY = (e.clientY / window.innerHeight) * 100;
             
             heroBackground.style.background = `
-                radial-gradient(circle at ${mouseX}% ${mouseY}%, rgba(0, 245, 255, 0.15) 0%, transparent 50%),
-                radial-gradient(circle at ${100-mouseX}% ${100-mouseY}%, rgba(255, 0, 255, 0.15) 0%, transparent 50%)
-            `;
-        });
-    </script>
-</body>
-</html>
+                radial-gradient(circle at ${mouseX}% ${mouseY}%, rgba(29, 161, 242, 0.25)
